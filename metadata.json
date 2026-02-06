@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Copy of MotoHike Connect",
+  "description": "Une application de rencontre unique pour les passionnés de moto et de randonnée. Trouvez votre partenaire d'aventure idéal, planifiez des sorties et explorez de nouveaux horizons ensemble.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
