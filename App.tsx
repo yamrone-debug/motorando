@@ -1,10 +1,15 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import Home from './pages/Home.tsx';
-import Discover from './pages/Discover.tsx';
-import Adventures from './pages/Adventures.tsx';
-import Chat from './pages/Chat.tsx';
-import Profile from './pages/Profile.tsx';
+import React from "react";
+import Home from "./src/pages/Home";
+
+function App() {
+  return (
+    <Home />
+  );
+}
+
+export default App;
+
+
 
 const Navigation = () => {
   const location = useLocation();
